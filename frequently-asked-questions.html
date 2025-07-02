@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - NUS Infant and Child Language Centre</title>
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="title">Infancy and Early Childhood Lab</div>
+          <div class="nav-row">
+            <ul class="nav-links">
+              <li class="nav-item dropdown-parent">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li><a href="news.html" class="nav-link">In the News</a></li>
+              <li><a href="publications.html" class="nav-link">Publications</a></li>
+              <li><a href="#" class="nav-link">Our Team</a></li>
+              <li><a href="parent-information.html" class="nav-link">Parent Information</a></li>
+              <li><a href="frequently-asked-questions.html" class="nav-link">Frequently Asked Questions</a></li>
+              <li class="nav-item dropdown-parent">
+                <a href="to-participate.html" class="nav-link">To participate!</a>
+                <div class="dropdown-slider">
+                  <a href="directions-contact-us.html" class="dropdown-link">Directions/Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="search-bar" onsubmit="return false;">
+              <input type="text" class="search-input" placeholder="Search...">
+              <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const searchInput = document.querySelector('.search-input');
+          const searchBtn = document.querySelector('.search-btn');
+          const searchBar = document.querySelector('.search-bar');
+ 
+          searchBar.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your search logic here
+            console.log('Searching for:', searchInput.value);
+          });
+        });
+      </script>
+      <p class="News">
+        Frequently Asked Questions
+      </p>
+      <div class="img">
+        <img src="faq.jpg">
+        <div class="about-text">
+          <h2>1.What is the purpose of this research?</h2>
+          <p>Our research explores how infants and young children (ages 0–5) learn, think, and communicate. We study areas like early word learning, attention, memory, and social-emotional development to better understand how children acquire language and build foundational cognitive skills.</p>
+          <h2>2. What should I expect during a visit?</h2>
+          <p>You'll visit the UMBC lab for a single 30-minute session. Your child will sit on your lap or nearby and view images or hear sounds while we observe responses like eye movement or attention. You’ll also complete a short questionnaire. Participation is safe, gentle, and designed to be
+           engaging for young children.</p>
+          <h2>3.How will my child's data be kept confidential?</h2>
+          <p>Absolutely. All data and video recordings are confidential and coded anonymously. Only trained researchers on our team — led by Dr. Leher Singh — will access it. No identifying information is shared in publications.</p>
+          <h2>4.Why do you need to video-record my child? Who will see the video?</h2>
+          <p>Your child will be video-recorded so we can code the session after it is over for his/her responses. All videos are confidential, and will only be seen by members of our research team. Once your child's responses have been coded, the videos will be erased.</p>
+          <h2>5. Will we be compensated?</h2>
+          <p>While there is no cash payment, your child will receive a small gift and a participation certificate.If needed, we can provide free parking or reimburse local travel expenses (up to a set limit)..</p>
+          <p>You can see current members of our team in the Our Team section of our website.</p>
+          <h2>6. Can I bring another child? Can I stay with my baby?</h2>
+          <p>Yes to both! You're welcome to stay with your baby at all times, and siblings can relax in our play area during the visit. We aim to make your experience comfortable and enjoyable for the whole family..</p>
+          <p>If you would like to receive a written report of your child's vocabulary or cognitive development, there will be the option of administering a standardized test to your child after the conclusion of the language study.</p>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>
+            Copyright © 2025 
+            <a href="#" class="footer-link">NUS Infant and Child Language Centre</a>. All rights reserved.<br>
+            Theme: <a href="#" class="footer-link">Ample</a> by ThemeGrill. Powered by <a href="#" class="footer-link">WordPress</a>.<br>
+            Blog.nus is brought to you by the 
+            <a href="#" class="footer-link">Centre for Teaching, Learning and Technology</a> | 
+            <a href="#" class="footer-link">Terms of Use</a> | 
+            <a href="#" class="footer-link">Disclaimers</a>
+          </p>
+        </div>
+      </footer>
+</body>
+</html> 

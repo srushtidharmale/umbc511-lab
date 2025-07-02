@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Information - NUS Infant and Child Language Centre</title>
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="title">Infancy and Early Childhood Lab</div>
+          <div class="nav-row">
+            <ul class="nav-links">
+              <li class="nav-item dropdown-parent">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li><a href="news.html" class="nav-link">In the News</a></li>
+              <li><a href="publications.html" class="nav-link">Publications</a></li>
+              <li><a href="#" class="nav-link">Our Team</a></li>
+              <li><a href="parent-information.html" class="nav-link">Parent Information</a></li>
+              <li><a href="frequently-asked-questions.html" class="nav-link">Frequently Asked Questions</a></li>
+              <li class="nav-item dropdown-parent">
+                <a href="to-participate.html" class="nav-link">To participate!</a>
+                <div class="dropdown-slider">
+                  <a href="directions-contact-us.html" class="dropdown-link">Directions/Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="search-bar" onsubmit="return false;">
+              <input type="text" class="search-input" placeholder="Search...">
+              <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const searchInput = document.querySelector('.search-input');
+          const searchBtn = document.querySelector('.search-btn');
+          const searchBar = document.querySelector('.search-bar');
+
+          searchBar.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your search logic here
+            console.log('Searching for:', searchInput.value);
+          });
+        });
+      </script>
+      <p class="News">
+        Parent Information
+      </p>
+    
+    
+        <div class="about-text">
+          <h2>What to Expect When You Visit</h2>
+          <p>You and your child will be invited to the Infancy and Early Childhood Development Lab at UMBC for a brief, one-time visit lasting approximately 30 minutes.<br>
+          Your baby or toddler will sit comfortably on your lap while viewing images and listening to sounds or words.<br>
+          We will observe which pictures your child looks at in response to the language or cues presented.<br>
+          Your child’s eye movements or attention patterns will be tracked using a non-invasive setup to help us understand how learning unfolds in the early years.<br>
+          We may also video-record the session for analysis, but:
+          All recordings are anonymously coded and securely deleted after review.<br>
+          You’re welcome to request a copy of your child’s video beforehand if you'd like to keep it as a memento.<br>
+          You’ll also be asked to complete a brief questionnaire about your child’s language and developmental background.</p>
+          <h2>What are the risks?</h2>
+          <p>There are no known risks associated with our studies. All research procedures are:Non-invasive,Play-based.Designed to be fun and safe for infants and toddlers</p>
+          <h2>What are the benefits?</h2>
+          <p>After your visit, you will receive:
+           ● A small gift and a participation certificate for your child
+           ● The satisfaction of contributing to important research that advances how we understan early development, communication, and learning
+           The insights gained through your participation help us improve developmental support for children everywhere.</p>
+          <h2>How can I indicate my interest?</h2>
+          <p>You may contact us by email at <a href="mailto:infantlanguagecentre@nus.edu.sg" class="about-link">lehers1@umbc.edu</a> If you'd like to find out more, please don't hesitate to contact us for more information, we will be happy to assist you. Alternatively, you may fill out our Interest Form and we will contact you if there is a suitable study for your child. All information you provide will be kept strictly confidential.</p>
+        
+      </div>
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>
+            Copyright © 2025 
+            <a href="#" class="footer-link">NUS Infant and Child Language Centre</a>. All rights reserved.<br>
+            Theme: <a href="#" class="footer-link">Ample</a> by ThemeGrill. Powered by <a href="#" class="footer-link">WordPress</a>.<br>
+            Blog.nus is brought to you by the 
+            <a href="https://ctlt.nus.edu.sg/" class="footer-link">Centre for Teaching, Learning and Technology</a> | 
+            <a href="#" class="footer-link">Terms of Use</a> | 
+            <a href="#" class="footer-link">Disclaimers</a>
+          </p>
+        </div>
+      </footer>
+</body>
+</html> 

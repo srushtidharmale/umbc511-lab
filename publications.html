@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - NUS Infant and Child Language Centre</title>
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+          <div class="title">Infancy and Early Childhood Lab</div>
+          <div class="nav-row">
+            <ul class="nav-links">
+              <li class="nav-item dropdown-parent">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li><a href="news.html" class="nav-link">In the News</a></li>
+              <li><a href="publications.html" class="nav-link">Publications</a></li>
+              <li><a href="#" class="nav-link">Our Team</a></li>
+              <li><a href="parent-information.html" class="nav-link">Parent Information</a></li>
+              <li><a href="frequently-asked-questions.html" class="nav-link">Frequently Asked Questions</a></li>
+              <li class="nav-item dropdown-parent">
+                <a href="to-participate.html" class="nav-link">To participate!</a>
+                <div class="dropdown-slider">
+                  <a href="directions-contact-us.html" class="dropdown-link">Directions/Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="search-bar" onsubmit="return false;">
+              <input type="text" class="search-input" placeholder="Search...">
+              <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const searchInput = document.querySelector('.search-input');
+          const searchBtn = document.querySelector('.search-btn');
+          const searchBar = document.querySelector('.search-bar');
+
+          searchBar.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your search logic here
+            console.log('Searching for:', searchInput.value);
+          });
+        });
+      </script>
+      <p class="News">
+        Publications
+      </p>
+      <div class="img">
+        <img src="publications.jpg">
+        <div class="about-text">
+          <ul class="pub-list">
+            <strong>  2025 Publications </strong></br>
+            <li>Ghai, S., Thériault, R., Forscher, P., Shoda, Y., Syed, M., Puthillam, A., Peng, H. C., Basnight Brown, D., Majid, A., Azevedo, F., & Singh, L. (2025). A manifesto for a globally diverse, equitable, and inclusive open science. Nature Communications Psychology, 3(16). </li>
+            <li>Golinkoff, R. M., Katz, S., Jo, J., Singh, L., Collins, M. A., & Hirsh-Pasek, K. (2025). How the perception of events in children is influenced by language. Cognition, 259, 106123.</li>
+            <li>Rajendra, S. J., Cheng, Q. Q., Yeung, J. W.-Y., & Singh, L. (2025). Socioeconomic Status Predicts Infant Word Recognition: Evidence from a linguistically, ethnically, and socioeconomically diverse community sample in Singapore. Infancy, 30(2), e70014.</li>
+            <li>Singh, L., Basnight-Brown, D., Cheon, B.K., Garcia, R., Killen, M., & Mazuka, R. (2025). Ethical and epistemic costs of a lack of geographical and cultural diversity in developmental science. Developmental Psychology, 61(1), 1–18.</li>
+            <strong>  2024 Publications </strong></br>
+            <li>Singh, L. (2024). A vision for a diverse, inclusive, equitable, and representative developmental science. Developmental Science, e13548.</li>
+            <li>Singh, L. (2024). Decolonizing and diversifying research in cognitive development. Journal of Cognition and Development, 1–5. https://doi.org/10.1080/15248372.2024.2324000</li>
+            <li>Singh, L. (2024). Generalizability and representation in studies of infant perceptual narrowing: Considerations for future research. Infant Behavior and Development, 77, 101998.</li>
+            <li>Singh, L., Barokova, M., Bazhydai, M., Baumgartner, H. A., Franchin, L., Kosie, J. E., … Frank, M. C. (2024). Tools of the Trade: A Guide to Sociodemographic Reporting for Researchers, Reviewers, and Editors. Journal of Cognition and Development, 1–20. https://doi.org/10.1080/15248372.2024.2431106</li>
+            <li>Singh, L., & Bortfeld, H. (2024). Towards a global developmental science. Developmental Science, e13555.</li>
+            <li>Singh, L., & Rajendra, S.J. (2024). Greater attention to socioeconomic status in developmental research can improve the external validity, generalizability, and replicability of developmental science. Developmental Science, e13521.</li>
+            <li>Singh, L., Barr, R., Quinn, P.C., Kalashnikova, M., Hidalgo-Rocha, J.R., Freda, K., & D’Souza, D. (2024). Effects of environmental diversity on exploration and learning: The case of bilingualism. Journal of Experimental Psychology: General, Advance online publication. https://doi.org/10.1037/xge0001562</li>
+          </ul>
+        </div>
+      </div>
+      <footer class="site-footer">
+        <div class="footer-content">
+          <p>
+            Copyright © 2025 
+            <a href="#" class="footer-link">NUS Infant and Child Language Centre</a>. All rights reserved.<br>
+            Theme: <a href="#" class="footer-link">Ample</a> by ThemeGrill. Powered by <a href="#" class="footer-link">WordPress</a>.<br>
+            Blog.nus is brought to you by the 
+            <a href="https://ctlt.nus.edu.sg/" class="footer-link">Centre for Teaching, Learning and Technology</a> | 
+            <a href="#" class="footer-link">Terms of Use</a> | 
+            <a href="#" class="footer-link">Disclaimers</a>
+          </p>
+        </div>
+      </footer>
+</body>
+</html> 
