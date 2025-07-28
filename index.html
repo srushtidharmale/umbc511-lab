@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UMBC Infant and Child Language Laboratory</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar .title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #d96c00;
+      text-decoration: none;
+    }
+
+    .site-logo {
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    .about-text p {
+      margin-bottom: 10px;
+    }
+
+    .footer-link {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <img src="logo.jpeg" alt="UMBC Logo" class="site-logo" />
+      <div class="title">UMBC Infant and Child Language Laboratory</div>
+      <div class="nav-row">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="news.html" class="nav-link">Parent Resources</a></li>
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="our-team.html" class="nav-link">Our Team</a></li>
+        </ul>
+        <!-- Search bar removed -->
+      </div>
+    </div>
+  </nav>
+
+  <p class="News">Home</p>
+
+  <div class="img">
+    <img class="index_img" src="index_img2.jpeg" alt="Lab photo" />
+
+    <div class="about-text" style="font-family: Arial, sans-serif; line-height: 1.6; font-size: 16px;">
+      <p><strong>🌱 UMBC Infant and Early Childhood Development Laboratory</strong></p>
+      <p>Department of Psychology, University of Maryland, Baltimore County (UMBC)</p>
+      <p>
+        At UMBC’s Infant and Early Childhood Development Laboratory, we explore how babies
+        and young children grow, think, and communicate in the earliest years of life.
+      </p>
+      <p>
+        Our research focuses on language development, cognitive milestones, and social learning in
+        children ages 3. Our focus is on diversifying experiences and modifying children’s early
+        development.
+      </p>
+      <p>
+        We also work extensively on meta-analytic studies of diversity and
+        representation in infant and child research.
+      </p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>
+        Copyright © 2025
+        <strong>UMBC Infant and Child Language Laboratory</strong>. All rights reserved.<br />
+        Theme: <em>Custom</em>. Powered by <strong>HTML/CSS</strong>.<br />
+        Hosted by the University of Maryland, Baltimore County (UMBC)
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const currentPath = window.location.pathname.split("/").pop();
+      const allLinks = document.querySelectorAll(".nav-link");
+      allLinks.forEach((link) => {
+        if (
+          link.getAttribute("href") === currentPath ||
+          (currentPath === "" && link.getAttribute("href") === "index.html")
+        ) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
